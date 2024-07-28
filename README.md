@@ -4,7 +4,7 @@
 To use the Recommendations Widgets, please include the following code snippets in your HTML file.
 
 
-```http
+```html
 <head>
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -27,7 +27,7 @@ To use the Recommendations Widgets, please include the following code snippets i
 </head>
 ```
 
-```http
+```html
 <body>
     <div id="feed-container" class="feed-container">
     </div>
@@ -40,13 +40,13 @@ To use the Recommendations Widgets, please include the following code snippets i
 Clone the project
 
 ```bash
-  git clone https://link-to-project
+  git clone https://github.com/ShlomieBerg/recommendations-widget.git
 ```
 
 Go to the project directory
 
 ```bash
-  cd my-project
+  cd recommendations-widget
 ```
 
 Install dependencies
