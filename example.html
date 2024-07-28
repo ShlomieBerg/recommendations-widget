@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Embedded Widget</title>
+
+  <!-- API Configuration -->
+  <script>
+    window.widgetsConfig = {
+        publisherId: 'feed',
+        appType: 'desktop',
+        apiKey: '143ca6bf153893c690249736df6a383615bb9e92',
+        // appName: 'msn-casualgames-sudoku-us',
+        // recCount: '12',
+        sourceType: 'text',
+        sourceId: 'https://www.microsoft.com/en-us/p/microsoft-sudoku/9wzdncrfhv60',
+        sourceUrl: 'https://www.microsoft.com/en-us/p/microsoft-sudoku/9wzdncrfhv60g',
+        userSession: 'init'
+    };
+  </script>
+</head>
+<body>
+    <div id="feed-container" class="feed-container">
+    </div>
+    <script src="dist/bundle.js" defer></script>
+</body>
+</html>

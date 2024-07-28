@@ -1,0 +1,69 @@
+.feed-container { 
+    padding: 44px 100px 0 100px;
+}
+.feed-title {
+    font-size: 12px;
+    width: 100%;
+    margin: 0 0 2% 2%;
+}
+
+.widget-container {
+    width: 100%;
+    display: block;
+}
+.widget {
+    width: 200px;;
+    height: 300px;
+    border: 1px solid #ccc;
+    color: #000000;
+    -webkit-border-radius: 6px;
+       -moz-border-radius: 6px;
+            border-radius: 6px;
+    margin: 0 0 2% 2%; 
+    float: left;
+}
+
+.widget a {
+    color: inherit;
+    text-decoration: none;
+  }
+
+.widget-thumbnail {
+    width: 100%;
+    min-height: 200px;
+    -webkit-background-size: cover;
+       -moz-background-size: cover;
+         -o-background-size: cover;
+            background-size: cover;
+    background-position: center;
+}
+.widget-branding {
+    font-size: 11px;
+    padding: 6px 6px 4px 6px;
+    min-height: 30px;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+         box-sizing: border-box;
+}
+
+.widget-name {
+    font-size: 13px;
+    padding: 4px 6px 6px 6px;
+    min-height: 70px;
+    overflow: hidden;
+    -o-text-overflow: ellipsis;
+       text-overflow: ellipsis;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+         box-sizing: border-box;
+}
+
+@media (max-width: 640px) {
+    .feed-container { 
+        padding: 44px 50px 0 50px;
+    }
+
+    .widget {
+        width: 250px;
+    }
+}
