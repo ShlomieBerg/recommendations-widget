@@ -2,6 +2,7 @@
 ### Usage:
 
 To use the Recommendations Widgets, please include the following code snippets in your HTML file.
+In addtion add the dist/bundle.js folder in your root folder.
 
 
 ```html
@@ -60,6 +61,8 @@ Start the server
 ```bash
   npm run start
 ```
+
+Browser to `http://localhost:3000`
 
 
 ### Running Tests
